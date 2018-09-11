@@ -7,7 +7,7 @@ class Spaceship extends React.Component {
     const {name , speed , hasRockets , colors}=this.props
     return(
       <div>
-      <h1>{name} </h1>
+      <h1>Spaceship Name:  {name} </h1>
       <p>{speed} </p>
       <p>{hasRockets ? 'yes ':'no'} </p>
       <ul>{colors.map((color, index) => <li key={index}>{color}</li>)}</ul>
