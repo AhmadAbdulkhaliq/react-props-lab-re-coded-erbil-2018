@@ -14,7 +14,7 @@ class Spaceship extends React.Component {
       <ul>{colors.map((color, index) => <li key={index}>{color}</li>)}</ul>
       </div>
       )
-      Spaceship.defaultProps = {
+      Spaceship.default = {
   speed: 'slow',
   hasRockets: false,
   colors: ['black', 'red']
